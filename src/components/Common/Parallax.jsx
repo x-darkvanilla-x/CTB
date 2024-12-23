@@ -1,6 +1,6 @@
 import React from "react";
 import { SecondaryButton } from "./SecondaryButton";
-import HeroDesign from "../../assets/images/herodesign.png";
+// import HeroDesign from "../../assets/images/herodesign.png";
 import { useLocation } from "react-router-dom";
 import { OutLineButton } from "./OutLineButton";
 

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { ReactComponent as Insta } from "../../assets/icons/instagram.svg";
-import { ReactComponent as Facebook } from "../../assets/icons/facebook.svg";
-import { ReactComponent as Linkedin } from "../../assets/icons/linkedin.svg";
+// import { ReactComponent as Insta } from "../../assets/icons/instagram.svg";
+// import { ReactComponent as Facebook } from "../../assets/icons/facebook.svg";
+// import { ReactComponent as Linkedin } from "../../assets/icons/linkedin.svg";
 
-export const Footer = ({}) => {
+export const Footer = () => {
   const [hovered, setHovered] = useState(null);
 
   return (

@@ -1,8 +1,8 @@
 import React from "react";
 import { Header } from "../components/Common/Header";
 import { ServiceCard } from "../components/Services/ServiceCard";
-import { InfoCard } from "../components/Information/InfoCard";
-import { SecondaryButton } from "../components/Common/SecondaryButton";
+// import { InfoCard } from "../components/Information/InfoCard";
+// import { SecondaryButton } from "../components/Common/SecondaryButton";
 import { Parallex } from "../components/Common/Parallax";
 import { TestimonialCard } from "../components/Testimonials/TestimonialCard";
 import { PrimaryButton } from "../components/Common/PrimaryButton";

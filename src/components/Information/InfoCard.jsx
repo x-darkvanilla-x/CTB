@@ -15,7 +15,7 @@ export const InfoCard = ({title, subtitle , caption, type}) => {
         gap: "10px",
       }}
     >
-      {type == 1 && (
+      {type === 1 && (
         <div
           style={{
             alignItems: "center",
@@ -63,7 +63,7 @@ export const InfoCard = ({title, subtitle , caption, type}) => {
         </div>
       )}
 
-      {type == 2 && (
+      {type === 2 && (
         <div>
           <Quote width="30" height="30" />
           <p
