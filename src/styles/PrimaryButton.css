@@ -1,0 +1,35 @@
+.sheen-button {
+  position: relative;
+  overflow: hidden;
+  padding: 10px 30px;
+  border-radius: 50px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+}
+
+.sheen-button::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  bottom: -50%;
+  left: -50%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0));
+  transform: rotateZ(30deg) translate(-5em, 7.5em);
+  transition: transform 1s;
+}
+
+.sheen-button:hover::after {
+  transform: rotateZ(30deg) translate(1em, -7em);
+}
+
+.sheen-button:active {
+  box-shadow: 0px 0px 0px white;
+  -webkit-box-shadow: inset -2px 2px 2px #ccc;
+  -moz-box-shadow: inset -2px 2px 2px #ccc;
+  box-shadow: inset -2px 2px 2px #ccc;
+  transform: translate(0, 2px);
+  color: #e0f7f7;
+}
